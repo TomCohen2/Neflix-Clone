@@ -1,0 +1,28 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  z-index: 1;
+  transition: all 0.6s;
+}
+
+.nav__black {
+  background-color: rgba(17, 17, 17, 0.986);
+  transition: all 0.6s;
+}
+
+.navbar > img {
+  width: 100px;
+  margin: 5px 5px;
+  object-fit: contain;
+}
+
+.navbar img:nth-child(2) {
+  width: 35px;
+  object-fit: contain;
+  margin-right: 30px;
+}

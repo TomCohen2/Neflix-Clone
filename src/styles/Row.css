@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 10px;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
+
+.row__block {
+  object-fit: contain;
+  transition: transform 450ms;
+  width: 100%;
+  margin-top: 10px;
+}
+.row__block h1 {
+  font-weight: 400;
+}
+
+.row img {
+  width: 180px;
+  margin: 0 5px;
+}
+
+.row img:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 450ms;
+}

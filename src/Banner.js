@@ -70,7 +70,7 @@ function Banner() {
       autoplay: 1,
     },
   };
-
+  // opts for youtube
   return (
     <>
       <header
